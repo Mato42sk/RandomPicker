@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="260dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:hint="Random choice"
+        android:gravity="center"
+        android:textSize="35sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+
+    <Button
+        android:id="@+id/randombtn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="Random Choice"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        />
+    <Button
+        android:id="@+id/listBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="4"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+
+        android:text="List" />
+
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>

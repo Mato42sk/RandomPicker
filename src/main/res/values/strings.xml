@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RandomPicker</string>
+    <string name="ok" />
+    <string name="cancel">g</string>
+</resources>
